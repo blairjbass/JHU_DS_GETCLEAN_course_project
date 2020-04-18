@@ -8,6 +8,7 @@ CodeBook.Rmd --> a pdf markdown file that goes over the general process with whi
 JHU_DS_GETCLEAN_course_project -->R Studio project file
 run_analyis_audit.R --> This an EXTRA file and is not required to complete the steps as required by the project.
 This script merely audits the project script to ensure the data compilation is sound. 
+fulldataset_avgerages_byactivtity.txt --> output file for 2nd tidy data set required in project. 
 
 Sub directories:
 dataset --> contains the data sets downloaded from project web site. These are unaltered. See README.txt in 
