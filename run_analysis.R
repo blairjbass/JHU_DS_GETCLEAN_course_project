@@ -63,4 +63,5 @@ by_activity <- group_by(dataset, activity)
 dataset2 <- summarize_all(by_activity, mean)
 names(dataset2) <- paste(names(dataset), "-avg", sep="")
 
-write.table(dataset2, file="fulldataset_avgerages_byactivtity.txt", row.name=FALSE)
+write.table(dataset2, file="fulldataset_avgerages_byactivtity.txt", row.name=FALSE) ## output for submission
+write.table(names(dataset), file="variablenames.txt") 

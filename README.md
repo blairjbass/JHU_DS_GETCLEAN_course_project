@@ -16,6 +16,7 @@ run_analyis_audit.R --> This an EXTRA file and is not required to complete the s
 This script merely audits the project script to ensure the data compilation is sound. 
 <p>
 fulldataset_avgerages_byactivtity.txt --> output file for 2nd tidy data set required in project. 
+<p>variablenames.txt --> list of the variable names for the 1st tidy data set in the project
 <p>
 Sub directories:
 dataset --> contains the data sets downloaded from project web site. These are unaltered. See README.txt in 

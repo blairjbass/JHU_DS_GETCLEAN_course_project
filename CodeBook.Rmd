@@ -26,6 +26,21 @@ We then create a second tidy data set which averages each of these variables, gr
 these averages by six different activity types. Please refer to the README.txt file
 for more information on the contents of this data.
 
+**The variables**
+activity - one of six activities used for observation: walking, walkingupstairs, walkingdownstairs,
+sitting, standing, laying.
+I used 86 additional variables in all from xtrain and xtest data sets.  Each of the variables measured
+mean or standard deviation ("std"). For full technical explanation on these variables see:
+dataset/features.txt 
+&
+dataset/feature_info.txt
+Below is a list of variables (listed in full in variablenames.txt)
+
+```{r echo=FALSE}
+  varnames <- tbl_df(read.table("variablenames.txt"))
+  print(varnames)
+```
+
 **Step 1**
 The first step was to open the test files (call them ytest and xtest).
 y_test.txt contained 1 column with 2947 rows
